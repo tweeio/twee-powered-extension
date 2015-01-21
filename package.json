@@ -1,0 +1,35 @@
+{
+    "name": "twee-powered-extension",
+    "preferGlobal": false,
+    "version": "0.0.1",
+    "author": "Dmitri Mesin <dmitri.mesin@gmail.com>",
+    "homepage": "https://github.com/mesin/twee-powered-extension",
+    "description": "X-Powered-By Middleware Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mesin/twee-powered-extension.git"
+    },
+    "keywords": [
+        "static",
+        "files",
+        "ftp",
+        "twee.io",
+        "framework",
+        "extensions",
+        "modules",
+        "route",
+        "web",
+        "middleware",
+        "mvc",
+        "routes",
+        "rest",
+        "restful",
+        "api"
+    ],
+    "bugs": {
+        "url": "https://github.com/mesin/twee-powered-extension/issues"
+    }
+}
