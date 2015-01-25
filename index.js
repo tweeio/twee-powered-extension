@@ -12,5 +12,5 @@ module.exports.extension = function() {
 
 module.exports.configNamespace = 'twee-powered';
 module.exports.config = {
-    "powered": 'Twee.io v' + String(twee.getConfig('twee:package:version'))
+    "powered": 'Twee.io v' + String(twee.getConfig('twee:package:tweeVersion'))
 };
