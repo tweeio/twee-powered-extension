@@ -5,7 +5,12 @@ module.exports.extension = function() {
     "use strict";
 
     twee.getApplication().use(function(req, res, next) {
-        res.setHeader('X-Powered-By', 'Twee.io v' + String(twee.getConfig('twee:package:version')));
+        res.setHeader('X-Powered-By', twee.getConfig('extension:twee-powered:powered'));
         next();
     });
+};
+
+module.exports.configNamespace = 'twee-powered';
+module.exports.config = {
+    "powered": 'Twee.io v' + String(twee.getConfig('twee:package:version'))
 };
