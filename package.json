@@ -1,16 +1,16 @@
 {
     "name": "twee-powered-extension",
     "preferGlobal": false,
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "Dmitri Mesin <dmitri.mesin@gmail.com>",
-    "homepage": "https://github.com/mesin/twee-powered-extension",
-    "description": "X-Powered-By Middleware Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
+    "homepage": "https://github.com/tweeio/twee-powered-extension",
+    "description": "X-Powered-By Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
     "license": "MIT",
     "dependencies": {},
     "devDependencies": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/mesin/twee-powered-extension.git"
+        "url": "https://github.com/tweeio/twee-powered-extension.git"
     },
     "keywords": [
         "static",
@@ -30,6 +30,6 @@
         "api"
     ],
     "bugs": {
-        "url": "https://github.com/mesin/twee-powered-extension/issues"
+        "url": "https://github.com/tweeio/twee-powered-extension/issues"
     }
 }

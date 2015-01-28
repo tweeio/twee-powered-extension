@@ -5,7 +5,7 @@ module.exports.extension = function() {
     "use strict";
 
     twee.getApplication().use(function(req, res, next) {
-        res.setHeader('X-Powered-By', twee.getConfig('extension:twee-powered:powered'));
+        res.setHeader('X-Powered-By', twee.getConfig('twee:extension:twee-powered:powered'));
         next();
     });
 };
